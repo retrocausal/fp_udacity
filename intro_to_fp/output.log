@@ -1,0 +1,13 @@
+(node:16695) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+/Users/nitin.prabhakar/work/udacity/lambda/intro_to_fp/modules/index.js:1
+import Enterprise from "./compare_paradigms.mjs";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
